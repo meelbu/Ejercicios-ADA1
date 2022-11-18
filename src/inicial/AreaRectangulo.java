@@ -1,14 +1,22 @@
 package inicial;
 
+import java.util.Scanner;
+
 public class AreaRectangulo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
 
-		int base, altura, area;
+		int base = 0;
+		int altura = 0;
+		int area = 0;
 
-		base = 50;
-		altura = 25;
+		System.out.println("Ingrese el vamor de la base");
+		base = in.nextInt();
+
+		System.out.println("Ingrese el vamor de la altura");
+		altura = in.nextInt();
 
 		area = base * altura;
 

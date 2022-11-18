@@ -8,17 +8,24 @@ public class Promedio {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 
+		int N1 = 0;
+		int N2 = 0;
+		int N3 = 0;
+		int N4 = 0;
 		int suma = 0;
 		int promedio = 0;
 
 		System.out.println("Ingrese la calificacion 1:");
-		int N1 = scanner.nextInt();
+		N1 = scanner.nextInt();
+
 		System.out.println("Ingrese la calificacion 2:");
-		int N2 = scanner.nextInt();
+		N2 = scanner.nextInt();
+
 		System.out.println("Ingrese la calificacion 3:");
-		int N3 = scanner.nextInt();
+		N3 = scanner.nextInt();
+
 		System.out.println("Ingrese la calificacion 4:");
-		int N4 = scanner.nextInt();
+		N4 = scanner.nextInt();
 
 		suma = N1 + N2 + N3 + N4;
 		promedio = suma / 4;

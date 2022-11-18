@@ -40,6 +40,13 @@ public class ClaseN1 {
 		nameCuatro = "Maru";
 		age2 = 28;
 		final int diasSemana = 7;
+
+		System.out.print("Name");
+		System.out.println("Maru");
+
+		// una forma de formatear lo que vas a pasar por consola
+
+		System.out.printf("");
 		  
 		// metodo, no cambia el valor en nigun momento
 		
